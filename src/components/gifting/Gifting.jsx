@@ -3,13 +3,15 @@ import image from "../gifting/background.jpg";
 const gifting = () => {
   return (
     <div>
-      <h2 className="first-letter:text-4xl text-center text-3xl font-mono	tracking-widest	md:p-32 pb-8 pt-8">
+      <h2 className="first-letter:text-4xl text-center text-3xl font-mono	tracking-widest	md:p-32 pb-8 pt-8 text-green-600">
         DELIVERING SMILES, WHEREVER YOU DESIRE
       </h2>
       <div className=" relative text-white">
         <img src={image} className="w-full h-[400px]  bg-cover opacity-80  " />
         <div className="absolute md:top-24 top-12 text-center">
-          <h2 className="md:text-3xl text-2xl m-6">GIFTING SOLUTIONS</h2>
+          <h2 className="md:text-3xl text-2xl m-6  text-green-600">
+            GIFTING SOLUTIONS
+          </h2>
           <p className="md:text-2xl">
             With family, friends and colleagues spread across the city, we have
             come up with a seamless way for you to gift them delight no matter
@@ -21,7 +23,7 @@ const gifting = () => {
         </div>
       </div>
       <div className="text-center py-24 flex flex-col justify-center items-center">
-        <h2 className="md:text-4xl text-2xl font-semibold p-2">
+        <h2 className="md:text-4xl text-2xl font-semibold p-2 text-green-600">
           GIFTING MEMORIES FOR EVERY OCCASION
         </h2>
         <p className="tracking-widest font-normal pt-4 px-4	md:text-2xl	">
@@ -33,7 +35,9 @@ const gifting = () => {
         </p>
       </div>
       <div className="text-center">
-        <h2 className="md:text-4xl text-2xl pb-12">A GIFT WORTH GIVING</h2>
+        <h2 className="md:text-4xl text-2xl pb-12  text-green-600">
+          A GIFT WORTH GIVING
+        </h2>
         <p className="md:text-2xl px-4">
           Our personalized Gift Boxes and Gift Hampers are a balanced blend of
           <br />
@@ -42,7 +46,7 @@ const gifting = () => {
           Build your own festive box, and celebrate the Season of Delight.
         </p>
       </div>
-      <h2 className="text-center md:text-4xl text-2xl py-24 text-orange-500">
+      <h2 className="text-center md:text-4xl text-2xl py-24  text-green-600">
         GIFT HAMPERS
       </h2>
     </div>

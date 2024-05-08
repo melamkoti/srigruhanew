@@ -60,7 +60,7 @@ export const homeData = [
     item: "Gulabjam",
     image: "../../../public/assets/Sweets/gulabhijam.jpg",
     description:
-      "Gulab Jamun is a popular Indian dessert made from deep-fried milk solids (khoya) or milk powder, which are then soaked in a sugar syrup flavored with cardamom, saffron, and rose water. Here's some feedback on Gulab Jamun:",
+      "Gulab Jamun is a popular Indian dessert made from deep-fried milk solids (khoya) or milk powder, which are then soaked in a sugar syrup flavored with cardamom, saffron, and rose water. Here's some feedback on Gulab Jamun",
     price: 345,
   },
   {
@@ -300,5 +300,108 @@ export const PicklesData = [
     description:
       "tomatoes can encompass various aspects such as flavor, texture, color, freshness, usage, versatility, and ripeness.  ",
     price: 199,
+  },
+];
+
+export const GiftBoxes = [
+  {
+    id: "1",
+    item: "Special Biscuts",
+    image: "../../../public/assets/giftboxes/biscuts.jpeg",
+
+    price: 99,
+  },
+  {
+    id: "2",
+    item: "combo - 12 pieces",
+    image: "../../../public/assets/giftboxes/combo12pieces.jpg",
+
+    price: 299,
+  },
+  {
+    id: "3",
+    item: "jumbo pack",
+    image: "../../../public/assets/giftboxes/deevalisweet.jpeg",
+
+    price: 199,
+  },
+  {
+    id: "4",
+    item: "mix-sweets-box",
+    image: "../../../public/assets/giftboxes/mix-sweets-box.webp",
+
+    price: 399,
+  },
+  {
+    id: "5",
+    item: "Nethi laddu",
+    image: "../../../public/assets/giftboxes/red_box.jpg",
+
+    price: 499,
+  },
+  {
+    id: "6",
+    item: "specialladdu",
+    image: "../../../public/assets/giftboxes/specialladdu.jpeg",
+
+    price: 299,
+  },
+  {
+    id: "7",
+    item: "sweet-special-pack",
+    image: "../../../public/assets/giftboxes/sweet.png",
+
+    price: 209,
+  },
+];
+export const GiftCombo = [
+  {
+    id: "1",
+    item: "Combo 1",
+    image: "../../../public/assets/combo/combo1.jpg",
+
+    price: 1999,
+  },
+  {
+    id: "2",
+    item: "combo 2",
+    image: "../../../public/assets/combo/combo2.jpg",
+
+    price: 1899,
+  },
+  {
+    id: "3",
+    item: "combo 3",
+    image: "../../../public/assets/combo/combo3.webp",
+
+    price: 1099,
+  },
+  {
+    id: "4",
+    item: "Combo 4",
+    image: "../../../public/assets/combo/combo4.jpg",
+
+    price: 399,
+  },
+  {
+    id: "5",
+    item: "Combo 5",
+    image: "../../../public/assets/combo/combo5.jpg",
+
+    price: 1199,
+  },
+  {
+    id: "6",
+    item: "Combo 6",
+    image: "../../../public/assets/combo/combo6.jpg",
+
+    price: 1299,
+  },
+  {
+    id: "7",
+    item: "Combo 7",
+    image: "../../../public/assets/combo/combo7.jpg",
+
+    price: 1499,
   },
 ];

@@ -2,8 +2,8 @@ import React from "react";
 
 const DisplayBar = () => {
   return (
-    <div>
-      <div className="flex justify-between p-4 text-orange-500">
+    <div className="hidden md:block">
+      <div className="flex justify-between p-4  text-orange-500">
         <div className="flex gap-4">
           <h2>ORDER TRACKING</h2>
           <span className="w-[4px] h-30 bg-orange-500 rounded-md"></span>

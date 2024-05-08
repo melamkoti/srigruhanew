@@ -10,10 +10,13 @@ const Home = () => {
 
   return (
     <div className="pb-20">
-      <h2 className="text-center text-4xl py-16">SWEET</h2>
-      <div className="flex flex-wrap  gap-8 m-8">
+      <h2 className="text-center text-4xl py-16  text-green-600">SWEET</h2>
+      <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:mx-10   gap-8 ">
         {homeData.map((item, index) => (
-          <div key={index} className="w-[300px] shadow-xl bg-white rounded-lg">
+          <div
+            key={index}
+            className="w-[300px] shadow-xl bg-white rounded-lg mx-auto"
+          >
             <img src={item.image} className="w-full h-[200px] rounded-lg" />
             <h2 className="text-2xl py-4 pl-6 font-semibold">{item.item}</h2>
             <p className="p-4 overflow-hidden h-[90px]">{item.description}</p>
@@ -30,10 +33,13 @@ const Home = () => {
           </div>
         ))}
       </div>
-      <h2 className="text-4xl py-16 text-center">SNACKS</h2>
-      <div className="flex flex-wrap gap-8 m-8">
+      <h2 className="text-4xl py-16 text-center  text-green-600">SNACKS</h2>
+      <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 px-auto  gap-8 m-8">
         {SnacksData.map((item, index) => (
-          <div key={index} className="w-[300px] shadow-xl bg-white rounded-lg ">
+          <div
+            key={index}
+            className="w-[300px] shadow-xl bg-white rounded-lg mx-auto "
+          >
             <img src={item.image} className="w-full h-[200px] rounded-lg" />
             <h2 className="text-2xl py-4 pl-6 font-semibold">{item.item}</h2>
             <p className="p-4 overflow-hidden h-[90px]">{item.description}</p>
@@ -50,10 +56,13 @@ const Home = () => {
           </div>
         ))}
       </div>
-      <h2 className="text-center text-4xl py-16"> PICKLE </h2>
-      <div className="flex flex-wrap gap-8 m-8">
+      <h2 className="text-center text-4xl py-16  text-green-600"> PICKLE </h2>
+      <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 px-auto  gap-8 m-8">
         {PicklesData.map((item, index) => (
-          <div key={index} className="w-[300px] shadow-xl bg-white rounded-lg ">
+          <div
+            key={index}
+            className="w-[300px] shadow-xl bg-white rounded-lg mx-auto"
+          >
             <img src={item.image} className="w-full h-[200px] rounded-lg" />
             <h2 className="text-2xl py-4 pl-6 font-semibold">{item.item}</h2>
             <p className="p-4 overflow-hidden h-[90px]">{item.description}</p>

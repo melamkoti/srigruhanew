@@ -5,12 +5,12 @@ const About = () => {
     <div>
       <div className="relative">
         <img src={about} className="h-[400px] w-full" />
-        <h3 className="absolute top-36 text-6xl font-semibold text-white left-[650px]">
+        <h3 className="absolute top-36 text-6xl font-semibold  left-[650px]  text-green-600">
           ABOUT US
         </h3>
       </div>
       <div>
-        <p className="text-center text-5xl py-4">
+        <p className="text-center text-5xl py-4  text-green-600">
           <p className="py-4"> the </p>
           <p className="py-4 tracking-widest	">TASTEMAKERS</p>
           <p className="py-4 tracking-widest	"> of GUNTUR</p>

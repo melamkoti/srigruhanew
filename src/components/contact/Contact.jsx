@@ -5,11 +5,11 @@ const Contact = () => {
     <div>
       <div className="relative">
         <img src={contact} className="h-[400px] w-full" />
-        <h3 className="absolute  top-44 xl:top-36 text-2xl md:text-4xl sm:left-[200px] xl:text-6xl font-semibold text-orange-500 xl:left-[550px] left-[130px] md:left-[350px]">
+        <h3 className="absolute  top-44 xl:top-36 text-2xl md:text-4xl sm:left-[200px] xl:text-6xl font-semibold  xl:left-[550px] left-[130px] md:left-[350px]  text-green-600">
           CONTACT US
         </h3>
       </div>
-      <div className="flex flex-col justify-center items-center text-2xl lg:text-4xl gap-3 py-20">
+      <div className="flex flex-col justify-center items-center text-2xl lg:text-4xl gap-3 py-20  text-green-600">
         <h3>YOU’VE REACHED THE END.</h3>
         <h3>THERE’S ONLY GOING UP FROM HERE!</h3>
       </div>
@@ -18,7 +18,7 @@ const Contact = () => {
         improve on, and we’ll get back to you as soon as possible.
       </p>
       <div className="md:ml-[150px] m-6">
-        <h2 className="text-3xl py-4 text-orange-400">WRITE TO US </h2>
+        <h2 className="text-3xl py-4  text-green-600">WRITE TO US </h2>
         <form>
           <label for="fname">NAME</label>
           <br />

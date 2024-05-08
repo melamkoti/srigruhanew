@@ -13,7 +13,7 @@ const Navbar = () => {
     return store.cart.items;
   });
   return (
-    <div className="sticky	top-0 bg-[#CBE3CC]">
+    <div className="sticky	top-0 bg-white">
       <div className=" m-6 text-orange-500 relative ">
         <div className=" flex justify-between items-center px-8 ">
           <p className="curser-pointer ">
@@ -28,34 +28,36 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`  md:flex md:items-center  absolute    text-1xl  md:z-auto z-50 md:static top-[100px]  left-0 pl-4 font-semibold  ${
-            menuOpen ? "block  bg-[#C4E2C5] shadow-2xl  " : "hidden"
+          className={`  md:flex md:items-center  absolute      z-auto  md:static top-[100px]  left-0 pl-4 font-semibold  ${
+            menuOpen ? "block  bg-white shadow-2xl  " : "hidden"
           }  `}
         >
-          <li className="mx-3 my-8 px-4">
-            <NavLink to="/">HOME</NavLink>
+          <li className="lg:mx-3  my-8 px-4">
+            <NavLink to="/">SHOP</NavLink>
           </li>
-          <li className="mx-3 my-8 px-4">
+          <li className="lg:mx-3 my-8 px-4">
             <NavLink to="/gifting">GIFTING</NavLink>
           </li>
-          <li className="mx-3 my-8 px-4">
+          <li className="lg:mx-3 my-8 px-4">
             <NavLink to="/celebration">CELEBRATION</NavLink>
           </li>
 
-          <li className="ml-[200px] mr-[200px] hidden md:block">
-            <img className="w-[100px]" src={house} alt="image" />
+          <li className="2xl:mx-[200px] hidden md:block ">
+            <NavLink to="/homepage">
+              <img className="w-[100px]" src={house} alt="image" />
+            </NavLink>
           </li>
 
-          <li className="mx-3 my-8 px-4">
+          <li className="lg:mx-3 my-8 px-4">
             <NavLink to="/card">GIFTING CARD</NavLink>
           </li>
-          <li className="mx-3 my-8 px-4">
+          <li className="lg:mx-3 my-8 px-4">
             <NavLink to="/about">ABOUT US</NavLink>
           </li>
-          <li className="mx-3 my-8 px-4">
+          <li className="lg:mx-3 my-8 px-4">
             <NavLink to="/contact">CONTACT US</NavLink>
           </li>
-          <li className="text-2xl mx-3 my-8 px-4 ">
+          <li className="text-2xl lg:mx-3 my-8 px-4 ">
             <NavLink to="/cart" className={"flex items-center gap-2"}>
               <ion-icon name="cart-outline"></ion-icon>
               <span>{cartItems.length}</span>
