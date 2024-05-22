@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../gifting/background.jpg";
+import image from "../gifting/sweet.png";
 const gifting = () => {
   return (
     <div>
@@ -7,12 +7,15 @@ const gifting = () => {
         DELIVERING SMILES, WHEREVER YOU DESIRE
       </h2>
       <div className=" relative text-white">
-        <img src={image} className="w-full h-[400px]  bg-cover opacity-80  " />
+        <img
+          src={image}
+          className="w-full h-[400px]  bg-cover opacity-80 z-0 "
+        />
         <div className="absolute md:top-24 top-12 text-center">
           <h2 className="md:text-3xl text-2xl m-6  text-green-600">
             GIFTING SOLUTIONS
           </h2>
-          <p className="md:text-2xl">
+          <p className="tracking-widest font-normal text-neutral-600 pt-4 px-4	md:text-2xl">
             With family, friends and colleagues spread across the city, we have
             come up with a seamless way for you to gift them delight no matter
             where they are, all from the comfort of your home.

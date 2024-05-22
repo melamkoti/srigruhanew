@@ -80,7 +80,7 @@ const Celebration = () => {
             id="w3review"
             name="w3review"
             rows="4"
-            cols="md:50"
+            cols="50 "
             placeholder="ENTER YOUR REQUIREMENTS"
           ></textarea>
           <br />

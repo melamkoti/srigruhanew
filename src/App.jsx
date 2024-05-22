@@ -1,5 +1,4 @@
 import "./App.css";
-import DisplayBar from "./components/DisplayBar";
 import Navbar from "./components/Navbar";
 import Home from "./components/homepage/Shop";
 import Gifting from "./components/gifting/Gifting";
@@ -19,7 +18,6 @@ function App() {
     <div>
       <BrowserRouter>
         <Provider store={store}>
-          <DisplayBar />
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
