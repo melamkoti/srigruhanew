@@ -4,6 +4,7 @@ import life from "../../../public/assets/life-is-sweet-logo.avif";
 import { GiftBoxes, GiftCombo } from "../homepage/homedata";
 import { useDispatch } from "react-redux";
 import { AddCart } from "../CartSlice";
+import { motion } from "framer-motion";
 
 const GiftingCard = () => {
   const dispatch = useDispatch();
@@ -47,14 +48,21 @@ const GiftingCard = () => {
                 className="w-full rounded-l-md rounded-r-md"
               />
             </div>
-            <h2 className="text-2xl pl-10 py-4">{item.item}</h2>
-            <p className="text-orange-500 text-center "> Rs. {item.price}.00</p>
-            <button
-              className="bg-white text-orange-300 font-semibold  shadow-lg shadow-orange-200 rounded-sm px-6 py-2  m-4 "
-              onClick={() => handleDispatch(item)}
-            >
-              ADD TO ITEM
-            </button>
+            <div className="flex flex-col justify-center items-center gap-2">
+              <h2 className="text-2xl  py-4">{item.item}</h2>
+              <p className="text-orange-500 text-center ">
+                {" "}
+                Rs. {item.price}.00
+              </p>
+              <motion.button
+                className="bg-white text-orange-300 font-semibold  border border-orange-400 rounded-md px-6 py-1  "
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => handleDispatch(item)}
+              >
+                ADD TO ITEM
+              </motion.button>
+            </div>
           </div>
         ))}
       </div>
@@ -86,14 +94,20 @@ const GiftingCard = () => {
                 className="w-full rounded-l-md rounded-r-md h-60"
               />
             </div>
-            <h2 className="text-2xl pl-10 py-4">{item.item}</h2>
-            <p className="text-orange-500 text-center "> Rs. {item.price}.00</p>
-            <button
-              className="bg-white text-orange-300 font-semibold  shadow-lg shadow-orange-200 rounded-sm px-6 py-2  m-4 "
-              onClick={() => handleDispatch(item)}
-            >
-              ADD TO ITEM
-            </button>
+            <div className="flex flex-col justify-center items-center gap-2">
+              <h2 className="text-2xl  py-4">{item.item}</h2>
+              <p className="text-orange-500 text-center ">
+                Rs. {item.price}.00
+              </p>
+              <motion.button
+                className="bg-white text-orange-300 font-semibold  border border-orange-400 rounded-md px-6 py-1  "
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => handleDispatch(item)}
+              >
+                ADD TO ITEM
+              </motion.button>
+            </div>
           </div>
         ))}
       </div>

@@ -9,11 +9,11 @@ const Contact = () => {
           CONTACT US
         </h3>
       </div>
-      <div className="flex flex-col justify-center items-center text-2xl lg:text-4xl gap-3 py-20  text-green-600">
+      <div className="flex flex-col justify-center ml-4 lg:items-center text-2xl lg:text-4xl gap-3 py-20  text-green-600">
         <h3>YOU’VE REACHED THE END.</h3>
         <h3>THERE’S ONLY GOING UP FROM HERE!</h3>
       </div>
-      <p className="text-center md:text-2xl py-28">
+      <p className="xl:text-center md:text-2xl py-28 mx-4">
         Leave us a note on how much you loved us or what you think we should
         improve on, and we’ll get back to you as soon as possible.
       </p>
@@ -72,7 +72,7 @@ const Contact = () => {
           <label for="w3review">Message</label>
           <br />
           <textarea
-            className=" border border-slate-500 placeholder:text-slate-500 bg-transparent p-2  my-3"
+            className=" w-[250px] md:w-[400px] border border-slate-500 placeholder:text-slate-500 bg-transparent p-2  my-3"
             id="w3review"
             name="w3review"
             rows="md:10"
@@ -82,8 +82,8 @@ const Contact = () => {
           <br />
           <input
             type="submit"
-            value="sbumit"
-            className="px-12 py-2 my-24 rounded-sm md:text-2xl text-white bg-orange-400 md:w-[400px]"
+            value="Submit"
+            className="px-12 py-2 my-12 rounded-sm md:text-2xl text-white bg-orange-400 hover:bg-orange-600 md:w-[400px]"
           />
         </form>
       </div>
@@ -99,7 +99,7 @@ const Contact = () => {
         No-2, Jkc <br />
         College Street Svn Colony Guntur, Andhra Pradesh, 522002 India
       </address>
-      <button className="font-semibold px-[80px] ml-[75px] py-2 text-white bg-orange-500 rounded-sm my-12">
+      <button className="font-semibold px-[80px] ml-[75px] py-2 text-white bg-orange-400 hover:bg-orange-600 rounded-sm my-12">
         GET DIRECTIONS
       </button>
 
@@ -127,13 +127,13 @@ const Contact = () => {
 
       <h2 className="ml-[65px] font-semibold py-4">FOLLOW US</h2>
       <ul className="ml-[70px] flex gap-2">
-        <li className="text-2xl text-orange-500">
+        <li className="text-2xl text-orange-400 hover:text-orange-600  ">
           <ion-icon name="logo-facebook"></ion-icon>
         </li>
-        <li className="text-2xl text-orange-500">
+        <li className="text-2xl text-orange-400 hover:text-orange-600">
           <ion-icon name="logo-instagram"></ion-icon>
         </li>
-        <li className="text-2xl text-orange-500">
+        <li className="text-2xl text-orange-400 hover:text-orange-600">
           <ion-icon name="logo-twitter"></ion-icon>
         </li>
       </ul>
