@@ -1,12 +1,12 @@
 import React from "react";
-import homelogo from "../../../public/assets/homenavlogo.png";
-import gulab from "../../../public/assets/Sweets/gulabhijam.jpg";
+import homelogo from "../../assets/homenavlogo.png";
+import gulab from "../../assets/Sweets/gulabhijam.jpg";
 import { NavLink } from "react-router-dom";
 
 const HomePage = () => {
   return (
     <div>
-      <h2 className="py-[100px] text-center sm:text-3xl tracking-widest text-green-600	 sm:first-letter:text-5xl first-letter:text-2xl ">
+      <h2 className="py-[100px] text-center sm:text-3xl tracking-widest 	 sm:first-letter:text-5xl first-letter:text-2xl ">
         DELIVERING SMILES, WHEREVER YOU DESIRE
       </h2>
       <div className="md:flex md:flex-row flex mx-16 sm:mx-48 md:mx-4  flex-col gap-4 lg:gap-16 xl:mx-[200px] justify-around">
@@ -40,7 +40,7 @@ const HomePage = () => {
         </div>
         <div>BEYOND AUTHENTIC</div>
       </nav>
-      <h2 className="text-center tracking-widest text-3xl py-16 my-16 text-green-600 ">
+      <h2 className="text-center tracking-widest text-3xl py-16 my-16 ">
         BEST SELLER
       </h2>
       <div className="md:flex md:flex-row flex flex-col   justify-center items-center gap-8  md:w-4/6 mx-auto ">

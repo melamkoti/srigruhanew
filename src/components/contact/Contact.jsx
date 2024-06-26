@@ -3,13 +3,20 @@ import contact from "../contact/contact.webp";
 const Contact = () => {
   return (
     <div>
-      <div className="relative">
-        <img src={contact} className="h-[400px] w-full" />
-        <h3 className="absolute  top-44 xl:top-36 text-2xl md:text-4xl sm:left-[200px] xl:text-6xl font-semibold  xl:left-[550px] left-[130px] md:left-[350px]  text-green-600">
+      <div
+        className="relative h-[600px] "
+        style={{
+          background: `url(${contact}) center center / cover no-repeat`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <h3 className="absolute inset-0 flex items-center justify-center md:text-4xl text-white text-2xl font-semibold">
           CONTACT US
         </h3>
       </div>
-      <div className="flex flex-col justify-center ml-4 lg:items-center text-2xl lg:text-4xl gap-3 py-20  text-green-600">
+
+      <div className="flex flex-col justify-center ml-4 lg:items-center text-2xl lg:text-4xl gap-3 py-20  ">
         <h3>YOU’VE REACHED THE END.</h3>
         <h3>THERE’S ONLY GOING UP FROM HERE!</h3>
       </div>
@@ -18,7 +25,7 @@ const Contact = () => {
         improve on, and we’ll get back to you as soon as possible.
       </p>
       <div className="md:ml-[150px] m-6">
-        <h2 className="text-3xl py-4  text-green-600">WRITE TO US </h2>
+        <h2 className="text-3xl py-4  ">WRITE TO US </h2>
         <form>
           <label for="fname">NAME</label>
           <br />
@@ -94,7 +101,7 @@ const Contact = () => {
         </p>
         <p>CORPORATE OFFICE ADDRESS</p>
       </div>
-      <address className="ml-[75px] md:text-2xl">
+      <address className="mx-[75px] md:text-2xl">
         Regd. Office:- Sri Gruha Foods Address: 5-38-45 1-2-23 Groud Floor Shop
         No-2, Jkc <br />
         College Street Svn Colony Guntur, Andhra Pradesh, 522002 India

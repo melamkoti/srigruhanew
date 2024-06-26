@@ -1,5 +1,5 @@
 import React from "react";
-import ImageLogo from "../public/assets/whatsapp-logo.png";
+import ImageLogo from "../src/assets/whatsapp.png";
 const Whatsup = () => {
   return (
     <div className=" fixed bottom-0 right-0 p-3  z-50 ">
