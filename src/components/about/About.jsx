@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../about/candy.jpg";
+import about from "../about/sweet.jpg";
 const About = () => {
   return (
     <div>
@@ -11,7 +11,7 @@ const About = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <h3 className="absolute inset-0 flex items-center justify-center md:text-4xl text-white text-2xl font-semibold">
+        <h3 className="absolute inset-0 flex items-center justify-center md:text-4xl text-white text-2xl font-semibold font-lora ">
           ABOUT US
         </h3>
       </div>

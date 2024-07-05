@@ -1,5 +1,5 @@
 import React from "react";
-import contact from "../contact/contact.webp";
+import contact from "../contact/pexels3.jpg";
 const Contact = () => {
   return (
     <div>
