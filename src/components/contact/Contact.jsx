@@ -1,12 +1,12 @@
 import React from "react";
-import contact from "../contact/pexels3.jpg";
+import contact from "../contact/contact1.jpeg";
 const Contact = () => {
   return (
     <div>
       <div
         className="relative h-[600px] "
         style={{
-          background: `url(${contact}) center center / cover no-repeat`,
+          background: `url(${contact})  center center / cover no-repeat`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
@@ -20,14 +20,15 @@ const Contact = () => {
         <h3>YOU’VE REACHED THE END.</h3>
         <h3>THERE’S ONLY GOING UP FROM HERE!</h3>
       </div>
-      <p className="xl:text-center md:text-2xl py-28 mx-4">
+      <p className="xl:text-center md:text-2xl sm:py-28 mx-4 ">
         Leave us a note on how much you loved us or what you think we should
         improve on, and we’ll get back to you as soon as possible.
       </p>
+
       <div className="md:ml-[150px] m-6">
         <h2 className="text-3xl py-4  ">WRITE TO US </h2>
         <form>
-          <label for="fname">NAME</label>
+          <label htmlFor="fname">NAME</label>
           <br />
           <input
             type="text"
@@ -36,7 +37,7 @@ const Contact = () => {
             className="border border-slate-500 rounded-sm placeholder:text-slate-500 bg-transparent p-2 w-[250px] md:w-[400px] my-3"
           />
           <br />
-          <label for="fname">LAST NAME</label>
+          <label htmlFor="fname">LAST NAME</label>
           <br />
           <input
             type="text"
@@ -45,7 +46,7 @@ const Contact = () => {
             className="border border-slate-500 rounded-sm placeholder:text-slate-500 bg-transparent p-2 w-[250px] md:w-[400px] my-3"
           />
           <br />
-          <label for="fname">MOBILE</label>
+          <label htmlFor="fname">MOBILE</label>
           <br />
           <input
             type="text"
@@ -54,7 +55,7 @@ const Contact = () => {
             className="border border-slate-500 rounded-sm placeholder:text-slate-500 bg-transparent p-2 w-[250px] md:w-[400px] my-3"
           />
           <br />
-          <label for="fname">EMAIL ID</label>
+          <label htmlFor="fname">EMAIL ID</label>
           <br />
           <input
             type="text"
@@ -63,7 +64,7 @@ const Contact = () => {
             className="border border-slate-500 rounded-sm placeholder:text-slate-500 bg-transparent p-2 w-[250px] md:w-[400px] my-3"
           />
           <br />
-          <label for="query">Enquiry For</label>
+          <label htmlFor="query">Enquiry For</label>
           <br />
           <select
             name="query"
@@ -76,7 +77,7 @@ const Contact = () => {
             <option value="volvo">Other</option>
           </select>
           <br />
-          <label for="w3review">Message</label>
+          <label htmlFor="w3review">Message</label>
           <br />
           <textarea
             className=" w-[250px] md:w-[400px] border border-slate-500 placeholder:text-slate-500 bg-transparent p-2  my-3"
