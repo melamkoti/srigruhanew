@@ -1,5 +1,5 @@
 import laddu from "../../assets/Sweets/laddu1.jpg";
-import ariseluSweet from "../../assets/Sweets/pexels-.jpg";
+import ariseluSweet from "../../assets/Sweets/halwa.jpg";
 import jalebiSweet from "../../assets/Sweets/jnm.jpeg";
 import rasagulla from "../../assets/Sweets/rasagulla1.jpg";
 import basenSweet from "../../assets/Sweets/besanladdu2.jpg";
@@ -19,7 +19,7 @@ import Chakkalu from "../../assets/Snacks/chakkalu.jpg";
 import chakodi from "../../assets/Snacks/chakodi.jpeg";
 import dalmudi from "../../assets/Snacks/dalmudi.jpg";
 import Janthikalu from "../../assets/Snacks/jantikalu.jpg";
-import lays from "../../assets/Snacks/lays.jpg";
+import lays from "../../assets/Snacks/karapu.jpg";
 import minapa from "../../assets/Snacks/minapa.jpg";
 import pakodi from "../../assets/Snacks/pakodi.jpg";
 import papad from "../../assets/Snacks/papad.jpg";
@@ -60,10 +60,10 @@ export const homeData = [
   },
   {
     id: "2",
-    item: "Lemon Drizzle Cake",
+    item: "Halwa",
     image: ariseluSweet,
     description:
-      "Lemon Drizzle Cake is a popular Indian cake, particularly famous in the city in us . It's a type of milk-based cake similar to other varieties of barfi but with its own unique flavor and texture",
+      "Halwa is a popular Indian cake, particularly famous in the city in us . It's a type of milk-based cake similar to other varieties of barfi but with its own unique flavor and texture",
     price: 589,
   },
   {
@@ -223,10 +223,10 @@ export const SnacksData = [
   },
   {
     id: "8",
-    item: "Lays",
+    item: "Karapu Chekkalu",
     image: lays,
     description:
-      "The most famous chips Their crispy texture and savory flavor make them a popular choice for snacking in South India and beyond. ",
+      "The most famous Chakkalu Their crispy texture and savory flavor make them a popular choice for snacking in South India and beyond. ",
     price: 20,
   },
   {
