@@ -1,20 +1,20 @@
-import khoyaSweet from "../../assets/Sweets/khoya.jpg";
-import ariseluSweet from "../../assets/Sweets/ariselu.jpg";
-import jalebiSweet from "../../assets/Sweets/jalebi.jpg";
-import balushahiSweet from "../../assets/Sweets/balushahi.jpg";
-import basenSweet from "../../assets/Sweets/besanladdu.jpg";
-import BritishCandy from "../../assets/Sweets/BritishCandy.jpg";
-import Bunfole from "../../assets/Sweets/bun.png";
+import laddu from "../../assets/Sweets/laddu1.jpg";
+import ariseluSweet from "../../assets/Sweets/pexels-.jpg";
+import jalebiSweet from "../../assets/Sweets/jnm.jpeg";
+import rasagulla from "../../assets/Sweets/rasagulla1.jpg";
+import basenSweet from "../../assets/Sweets/besanladdu2.jpg";
+import putharekulu from "../../assets/Sweets/putharekelu.jpg";
+import Bunfole from "../../assets/Sweets/palakova.jpg";
 import Gulabjam from "../../assets/Sweets/gulabhijam.jpg";
-import khaja from "../../assets/Sweets/kaja.jpg";
-import moongdal from "../../assets/Sweets/moongdal.jpg";
-import papidi from "../../assets/Sweets/papidi.jpg";
+import khaja from "../../assets/Sweets/motichur.webp";
+import kesarpadha from "../../assets/Sweets/kesarpedha.avif";
+import papdi from "../../assets/Sweets/soanpapdi.avif";
 import bobatlu from "../../assets/Sweets/bobatlu.jpg";
-import ravaladdu from "../../assets/Sweets/ravaladdu.jpg";
-import specialpack from "../../assets/Sweets/specialpack.jpg";
+import ravaladdu from "../../assets/Sweets/ravvaladdu.jpg";
+import coconut from "../../assets/Sweets/coconut1.jpg";
 import aluchips from "../../assets/Snacks/aluchips.jpg";
 import Biscuts from "../../assets/Snacks/biskets.png";
-import Bundi from "../../assets/Snacks/bundi.jpg";
+import Bundi from "../../assets/Sweets/bundi.jpg";
 import Chakkalu from "../../assets/Snacks/chakkalu.jpg";
 import chakodi from "../../assets/Snacks/chakodi.jpeg";
 import dalmudi from "../../assets/Snacks/dalmudi.jpg";
@@ -52,19 +52,19 @@ import combo7 from "../../assets/combo/combo7.jpg";
 export const homeData = [
   {
     id: "1",
-    item: "Khoya",
-    image: khoyaSweet,
+    item: "Bundi Laddu",
+    image: laddu,
     description:
-      "Ajmer khoya is a popular Indian sweet, particularly famous in the city of Ajmer in Rajasthan. It's a type of milk-based sweet similar to other varieties of barfi but with its own unique flavor and texture",
+      "Bundi Laddu is a popular Indian sweet, particularly famous in the city of Ajmer in Rajasthan. It's a type of milk-based sweet similar to other varieties of barfi but with its own unique flavor and texture",
     price: 399,
   },
   {
     id: "2",
-    item: "Ariselu",
+    item: "Lemon Drizzle Cake",
     image: ariseluSweet,
     description:
-      "Ajmer khoya is a popular Indian sweet, particularly famous in the city of Ajmer in Rajasthan. It's a type of milk-based sweet similar to other varieties of barfi but with its own unique flavor and texture",
-    price: 289,
+      "Lemon Drizzle Cake is a popular Indian cake, particularly famous in the city in us . It's a type of milk-based cake similar to other varieties of barfi but with its own unique flavor and texture",
+    price: 589,
   },
   {
     id: "3",
@@ -76,8 +76,8 @@ export const homeData = [
   },
   {
     id: "4",
-    item: "Balushahi",
-    image: balushahiSweet,
+    item: "Rasagulla",
+    image: rasagulla,
     description:
       "This dish is rich, creamy, and packed with flavors, perfect for satisfying your sweet cravings like a true 'Badshah'! Adjust the sweetness according to your preference. Enjoy!",
     price: 179,
@@ -92,15 +92,15 @@ export const homeData = [
   },
   {
     id: "6",
-    item: "BritishCandy",
-    image: BritishCandy,
+    item: "Putharekulu",
+    image: putharekulu,
     description:
       " Cadbury is one of the most iconic British chocolate brands, known for its creamy milk chocolate. Some popular Cadbury products include Dairy Milk, Flake, Wispa, and Crunchie.",
     price: 299,
   },
   {
     id: "7",
-    item: "Bunfold",
+    item: "Pala Kova",
     image: Bunfole,
     description:
       "These sweet buns are perfect for breakfast or as a snack with a cup of tea or coffee. You can also enjoy them toasted with butter or jam for extra indulgence.",
@@ -116,26 +116,26 @@ export const homeData = [
   },
   {
     id: "9",
-    item: "Khaja",
+    item: "Motichur Laddu",
     image: khaja,
     description:
-      "Khaja is a delightful sweet treat enjoyed by many for its unique texture and flavor. When made with care and attention to detail, it can be a memorable part of any festive occasion or celebration.",
+      "Motichur  is a delightful sweet treat enjoyed by many for its unique texture and flavor. When made with care and attention to detail, it can be a memorable part of any festive occasion or celebration.",
     price: 255,
   },
   {
     id: "10",
-    item: "MoongDal",
-    image: moongdal,
+    item: "Kesar Pedha",
+    image: kesarpadha,
     description:
       "Overall, dishes made with moong dal are valued for their nutritional benefits, versatility, and delicious flavor. ",
     price: 379,
   },
   {
     id: "11",
-    item: "Papidi",
-    image: papidi,
+    item: " Soan Papdi",
+    image: papdi,
     description:
-      "Papdi is appreciated for its crispiness, flavor, and versatility. Whether enjoyed as a standalone snack or as part of a delicious chaat, well-made Papdi is sure to be a hit among snack  ",
+      " Soan Papdi is appreciated for its crispiness, flavor, and versatility. Whether enjoyed as a standalone snack or as part of a delicious chaat, well-made Papdi is sure to be a hit among snack  ",
     price: 219,
   },
   {
@@ -148,7 +148,7 @@ export const homeData = [
   },
   {
     id: "13",
-    item: "Ravaladdu",
+    item: "Ravvaladdu",
     image: ravaladdu,
     description:
       "Rava Laddu is a delightful Indian sweet enjoyed for its unique texture, flavor, and simplicity.  ",
@@ -156,11 +156,11 @@ export const homeData = [
   },
   {
     id: "14",
-    item: "SpecialPack",
-    image: specialpack,
+    item: "Coconut Laddu",
+    image: coconut,
     description:
-      "Rava Laddu has a rich, nutty flavor due to the roasted semolina and the addition of nuts like cashews and almonds.  ",
-    price: 599,
+      "Coconut laddu has a rich, nutty flavor due to the roasted semolina and the addition of nuts like cashews and almonds.  ",
+    price: 299,
   },
 ];
 
@@ -227,7 +227,7 @@ export const SnacksData = [
     image: lays,
     description:
       "The most famous chips Their crispy texture and savory flavor make them a popular choice for snacking in South India and beyond. ",
-    price: 308,
+    price: 20,
   },
   {
     id: "9",
@@ -235,7 +235,7 @@ export const SnacksData = [
     image: minapa,
     description:
       "The most famous chips Their crispy texture and savory flavor make them a popular choice for snacking in South India and beyond. ",
-    price: 498,
+    price: 150,
   },
   {
     id: "10",
@@ -243,7 +243,7 @@ export const SnacksData = [
     image: pakodi,
     description:
       "Indian favorite food they are eating snaks without this it is south indian special item ",
-    price: 544,
+    price: 99,
   },
   {
     id: "11",
@@ -251,7 +251,7 @@ export const SnacksData = [
     image: papad,
     description:
       "Indian favorite food they are eating snaks without this it is south indian special item ",
-    price: 276,
+    price: 30,
   },
   {
     id: "12",
@@ -259,7 +259,7 @@ export const SnacksData = [
     image: samosa,
     description:
       "Indian favorite food they are eating snaks without this it is south indian special item ",
-    price: 279,
+    price: 20,
   },
 ];
 
@@ -270,7 +270,7 @@ export const PicklesData = [
     image: chiken,
     description:
       "chicken pickle is a delicious and versatile dish that can be enjoyed on its own or as part of a meal. With the right balance of flavors and textures, ",
-    price: 999,
+    price: 699,
   },
   {
     id: "2",
@@ -278,7 +278,7 @@ export const PicklesData = [
     image: pwarns,
     description:
       "prawns are a delicious and nutritious seafood option enjoyed by many people worldwide. With proper cooking and seasoning, they can be a flavorful addition to any meal. ",
-    price: 119,
+    price: 1099,
   },
   {
     id: "3",
@@ -286,7 +286,7 @@ export const PicklesData = [
     image: mutton,
     description:
       "mutton pickle is a delicious and aromatic dish that can be enjoyed on its own or as part of a meal. With the right balance of flavors and textures, it can be a flavorful addition to any dining experience. ",
-    price: 159,
+    price: 1199,
   },
   {
     id: "4",
@@ -294,7 +294,7 @@ export const PicklesData = [
     image: Tamarind,
     description:
       "tamarind pickle is a versatile and flavorful condiment that adds a burst of tanginess and spice to any meal. With its complex flavor profile and luscious texture, it is sure to enhance the dining experience. ",
-    price: 299,
+    price: 269,
   },
   {
     id: "5",
@@ -302,7 +302,7 @@ export const PicklesData = [
     image: ginger,
     description:
       "ginger pickle is a delightful condiment that adds a punch of flavor to any meal. With its bold and spicy taste, it is sure to tantalize the taste buds and elevate the dining experience.",
-    price: 179,
+    price: 219,
   },
   {
     id: "6",
@@ -318,7 +318,7 @@ export const PicklesData = [
     image: mango,
     description:
       "mango pickle is a delicious and versatile condiment that adds a burst of flavor to any meal. ",
-    price: 299,
+    price: 199,
   },
   {
     id: "8",
@@ -334,7 +334,7 @@ export const PicklesData = [
     image: nimmakay,
     description:
       " lime pickle is a delicious and versatile condiment that adds a burst of flavor to any meal. With its bold and tangy taste, it is sure to tantalize the taste buds and enhance the dining experience.  ",
-    price: 279,
+    price: 199,
   },
   {
     id: "10",
@@ -342,7 +342,7 @@ export const PicklesData = [
     image: redchilli,
     description:
       " red chilies can encompass various aspects such as flavor, freshness, heat level, texture, appearance, and usage. ",
-    price: 269,
+    price: 199,
   },
   {
     id: "11",
@@ -359,28 +359,28 @@ export const GiftBoxes = [
     id: "1",
     item: "Special Biscuts",
     image: specialBiscuts,
-    price: 99,
+    price: 899,
   },
   {
     id: "2",
     item: "Combo - 12 pieces",
     image: combo12,
 
-    price: 299,
+    price: 999,
   },
   {
     id: "3",
     item: "Jumbo pack",
     image: divalibox,
 
-    price: 199,
+    price: 899,
   },
   {
     id: "4",
     item: "Mix-sweets-box",
     image: mixsweetbox,
 
-    price: 399,
+    price: 699,
   },
   {
     id: "5",
@@ -391,17 +391,17 @@ export const GiftBoxes = [
   },
   {
     id: "6",
-    item: "Specialladdu",
+    item: "Special laddu",
     image: specialladdu,
 
-    price: 299,
+    price: 599,
   },
   {
     id: "7",
     item: "Sweet-special-pack",
     image: specialSweet,
 
-    price: 209,
+    price: 799,
   },
 ];
 export const GiftCombo = [

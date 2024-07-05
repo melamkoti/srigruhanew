@@ -78,8 +78,7 @@ const Celebration = () => {
           <br />
           <input
             type="date"
-            placeholder="NAME"
-            className="border border-white placeholder:text-slate-500 bg-transparent p-2 md:w-[400px]"
+            className="border text-slate-500 border-white placeholder:text-slate-500 bg-transparent p-2 md:w-[400px]"
           />
           <input
             type="time"
